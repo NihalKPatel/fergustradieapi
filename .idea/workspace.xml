@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a50585-8aad-4523-be64-c36a586a344d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tradie.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tradie.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tradie.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tradie.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/tradie.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/tradie.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +242,7 @@
       <workItem from="1662159755382" duration="15958000" />
       <workItem from="1662191380418" duration="556000" />
       <workItem from="1662206710740" duration="4121000" />
-      <workItem from="1662249403548" duration="28712000" />
+      <workItem from="1662249403548" duration="28978000" />
     </task>
     <servers />
   </component>
