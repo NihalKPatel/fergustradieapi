@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a50585-8aad-4523-be64-c36a586a344d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tradie.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tradie.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tradie.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tradie.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/tradie.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/tradie.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\fergustradieapi\app\db" />
       <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\fergustradieapi\app" />
     </key>
   </component>
