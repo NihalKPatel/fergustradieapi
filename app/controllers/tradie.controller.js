@@ -17,7 +17,6 @@ exports.create = (req, res) => {
         status: req.body.status,
         contact: req.body.contact,
         notes: req.body.notes,
-        published: req.body.published ? req.body.published : false
     };
     // Save Tradie in the database
     Tradie.create(tradie)
@@ -74,7 +73,7 @@ exports.update = (req, res) => {
         where: { id: id }
     })
         .then(num => {
-            if (num === 1) {
+            if (num == 1) {
                 res.send({
                     message: "Tradie was updated successfully."
                 });
@@ -87,6 +86,29 @@ exports.update = (req, res) => {
         .catch(() => {
             res.status(500).send({
                 message: "Error updating Tradie with id=" + id
+            });
+        });
+};
+
+exports.delete = (req, res) => {
+    const id = req.params.id;
+    Tradie.destroy({
+        where: { id: id }
+    })
+        .then(num => {
+            if (num == 1) {
+                res.send({
+                    message: "Tutorial was deleted successfully!"
+                });
+            } else {
+                res.send({
+                    message: `Cannot delete Tutorial with id=${id}. Maybe Tutorial was not found!`
+                });
+            }
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: "Could not delete Tutorial with id=" + id
             });
         });
 };

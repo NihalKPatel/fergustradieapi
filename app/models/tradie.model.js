@@ -13,10 +13,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         },
         notes: {
-            type: Sequelize.STRING
-        },
-        published: {
-            type: Sequelize.BOOLEAN
+            type: Sequelize.JSON
         }
     });
     return Tradie;
