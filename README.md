@@ -27,6 +27,24 @@ Live version of the API can be found at https://fergustradieapi.herokuapp.com/
 - GET `/api/tradies/` - Get all Jobs
 - GET `/api/tradies/:id` - Get Jobs by id
 - POST `/api/tradies/` - Create new Jobs
+```
+{
+        "name": "Steve Smith",
+        "jobs": "Painting",
+        "status": "active",
+        "contact": "021 123 4567",
+        "notes": [
+            {
+                "job_notes": "This is a note for job 1"
+
+            },
+            {
+                "day2": "painting needed"
+
+            }
+        ]
+}
+```
 - PUT `/api/tradies/:id` - Update Jobs by id
 - DELETE `/api/tradies/:id` - Delete Jobs by id
 
